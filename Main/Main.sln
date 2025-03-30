@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34930.48
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Main", "Main\Main.vcxproj", "{07345132-C497-43A4-AA07-EF2BD0FCAB1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image2D", "Image2D", "{3B468263-3DBE-4906-AEE1-AA9D5BDB0508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PointCloud3D", "PointCloud3D", "{F7ABA19B-62F4-4F64-A200-F61CED79E7E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TempleMatch", "..\Image2D\TempleMatch\TempleMatch\TempleMatch.vcxproj", "{B82FD5C8-BAF8-468C-8AB0-06B4B5A0A670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07345132-C497-43A4-AA07-EF2BD0FCAB1A}.Debug|x64.ActiveCfg = Debug|x64
+		{07345132-C497-43A4-AA07-EF2BD0FCAB1A}.Debug|x64.Build.0 = Debug|x64
+		{07345132-C497-43A4-AA07-EF2BD0FCAB1A}.Debug|x86.ActiveCfg = Debug|Win32
+		{07345132-C497-43A4-AA07-EF2BD0FCAB1A}.Debug|x86.Build.0 = Debug|Win32
+		{07345132-C497-43A4-AA07-EF2BD0FCAB1A}.Release|x64.ActiveCfg = Release|x64
+		{07345132-C497-43A4-AA07-EF2BD0FCAB1A}.Release|x64.Build.0 = Release|x64
+		{07345132-C497-43A4-AA07-EF2BD0FCAB1A}.Release|x86.ActiveCfg = Release|Win32
+		{07345132-C497-43A4-AA07-EF2BD0FCAB1A}.Release|x86.Build.0 = Release|Win32
+		{B82FD5C8-BAF8-468C-8AB0-06B4B5A0A670}.Debug|x64.ActiveCfg = Debug|x64
+		{B82FD5C8-BAF8-468C-8AB0-06B4B5A0A670}.Debug|x64.Build.0 = Debug|x64
+		{B82FD5C8-BAF8-468C-8AB0-06B4B5A0A670}.Debug|x86.ActiveCfg = Debug|Win32
+		{B82FD5C8-BAF8-468C-8AB0-06B4B5A0A670}.Debug|x86.Build.0 = Debug|Win32
+		{B82FD5C8-BAF8-468C-8AB0-06B4B5A0A670}.Release|x64.ActiveCfg = Release|x64
+		{B82FD5C8-BAF8-468C-8AB0-06B4B5A0A670}.Release|x64.Build.0 = Release|x64
+		{B82FD5C8-BAF8-468C-8AB0-06B4B5A0A670}.Release|x86.ActiveCfg = Release|Win32
+		{B82FD5C8-BAF8-468C-8AB0-06B4B5A0A670}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B82FD5C8-BAF8-468C-8AB0-06B4B5A0A670} = {3B468263-3DBE-4906-AEE1-AA9D5BDB0508}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CC1EFCC-8F32-4538-BE65-7EAA8E54A836}
+	EndGlobalSection
+EndGlobal
